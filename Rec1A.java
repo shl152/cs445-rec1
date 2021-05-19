@@ -47,11 +47,14 @@ public class Rec1A {
      * Test the Rec1A class by making several instances.
      */
     public static void main(String[] args) {
+        // Note that count is accessed via the Rec1A class, not one of its
+        // instances!
         System.out.println("Number of Rec1A objects created at start: " +
                 Rec1A.count);
 
         Rec1A matilda = new Rec1A("Matilda");
 
+        // Again, note this is not matilda.count
         System.out.println("Number of Rec1A objects created incl. Matilda: " +
                 Rec1A.count);
 
@@ -61,11 +64,14 @@ public class Rec1A {
         System.out.println("Number of Rec1A objects created after two more: " +
                 Rec1A.count);
 
-        System.out.println();
-
         // Note here that custom is another reference to the same object as
         // matilda!
         Rec1A custom = matilda;
+
+        System.out.println("Number of Rec1A objects created incl. custom: " +
+                Rec1A.count);
+
+        System.out.println();
 
         Scanner stdin = new Scanner(System.in);
         System.out.print("Enter a new name: ");
