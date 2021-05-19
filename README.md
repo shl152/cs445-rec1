@@ -20,7 +20,7 @@ development.
 
 ## Java CLI
 
-1) Download the provided code by cloning the [Recitation 1
+1) Download the provided code by cloning this [Recitation 1
 repository](https://github.com/2217-cs445/cs445-rec1). You will find the
 following Java files:
 
