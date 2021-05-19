@@ -29,8 +29,8 @@ following Java files:
     - `Rec1B.java` demonstrates command line arguments.
     - `Rec1C.java` demonstrates a class in a package.
 
-2) Read through `Rec1A.java` and consider what happens when it is run. Predict
-what you'll see output from each of the print statements.
+2) Read through `Rec1A.java` and consider what will happen when it is run.
+Predict what you'll see output from each of the print statements.
 
 3) Use `cd` to navigate to your local directory that contains these files. To
 ensure you are able to compile and run Java programs from the CLI, compile and
@@ -45,14 +45,14 @@ not reflected in the online version on GitHub. Your TA will demonstrate what
 happens when changes are pushed (they'll be using their own *fork* of the
 repository where they have write access).
 
-6) Read through `Rec1B.java` and consider what happens when it is run.
+6) Read through `Rec1B.java` and consider what will happen when it is run.
 
 7) To ensure you understand command line arguments, compile and run `Rec1B`. Try
 running it with different numbers of command line arguments. Try wrapping
 multiple words in quotes, and note the difference in the output of the program.
 
 8) Read through `Rec1C.java` and consider the first line; note that this class
-is labeled as inside package `cs445.rec1`.
+is labeled as belonging to package `cs445.rec1`.
 
 9) Try compiling and running `Rec1C` in the same way you did `Rec1A` and
 `Rec1B`. Note that it doesn't work! This is because Java expects to find the
@@ -61,8 +61,8 @@ code inside a *package folder*.
 10) Create nested package folders `cs445/rec1/` using `mkdir`. Then, move
 `Rec1C.java` into `cs445/rec1/` using `git mv`.
 
-11) **Remaining outside of the package folders** (that is, without using `cd` to
-navagite into `cs445/rec1`), compile and run `Rec1C.java`.
+11) **Remaining outside of the package folders** (that is, *without* using `cd`
+to navagite into `cs445/rec1/`), compile and run `Rec1C.java`.
 
 12) Commit your change of location for `Rec1C.java` using `git commit`.
 
