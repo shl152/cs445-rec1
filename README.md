@@ -24,10 +24,10 @@ development.
 repository](https://github.com/2217-cs445/cs445-rec1). You will find the
 following Java files:
 
-  - `Rec1A.java` demonstrates basic CLI input and output, plus objects and
-    references.
-  - `Rec1B.java` demonstrates command line arguments.
-  - `Rec1C.java` demonstrates a class in a package.
+    - `Rec1A.java` demonstrates basic CLI input and output, plus objects and
+      references.
+    - `Rec1B.java` demonstrates command line arguments.
+    - `Rec1C.java` demonstrates a class in a package.
 
 2) Read through `Rec1A.java` and consider what happens when it is run. Predict
 what you'll see output from each of the print statements.
