@@ -62,7 +62,7 @@ code inside a *package folder*.
 `Rec1C.java` into `cs445/rec1/` using `git mv`.
 
 11) **Remaining outside of the package folders** (that is, *without* using `cd`
-to navagite into `cs445/rec1/`), compile and run `Rec1C.java`.
+to navigate into `cs445/rec1/`), compile and run `Rec1C.java`.
 
 12) Commit your change of location for `Rec1C.java` using `git commit`.
 
