@@ -32,9 +32,9 @@ following Java files:
 2) Read through `Rec1A.java` and consider what happens when it is run. Predict
 what you'll see output from each of the print statements.
 
-3) Use `cd` to navigate to the directory containing these files. To ensure you
-are able to compile and run Java programs from the CLI, compile and run `Rec1A`.
-Check your predictions regarding each print statement.
+3) Use `cd` to navigate to your local directory that contains these files. To
+ensure you are able to compile and run Java programs from the CLI, compile and
+run `Rec1A`. Check your predictions regarding each print statement.
 
 4) Change line 69 of `Rec1A.java` to make `custom` point to a separate object
 from `matilda`. Compile and run the code again and observe the changes.
