@@ -40,10 +40,11 @@ run `Rec1A`. Check your predictions regarding each print statement.
 from `matilda`. Compile and run the code again and observe the changes.
 
 5) Check which files have changed using `git status`. Commit your changes to
-your local clone of the git repository using `git commit`. Note that these are
-not reflected in the online version on GitHub. Your TA will demonstrate what
-happens when changes are pushed (they'll be using their own *fork* of the
-repository where they have write access).
+your local clone of the git repository using `git add Rec1A.java` and `git
+commit`. Note that, even after doing so, your changes are not reflected in the
+online version on GitHub. Your TA will demonstrate what happens when changes are
+pushed (they will use their own *fork* of the repository where they have write
+access).
 
 6) Read through `Rec1B.java` and consider what will happen when it is run.
 
