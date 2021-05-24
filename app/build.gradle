@@ -1,0 +1,26 @@
+plugins {
+    // Apply the application plugin to add support for building a CLI application in Java.
+    id 'application'
+}
+
+// Task for Part A
+task(runA, type: JavaExec) {
+	mainClass = 'Rec1A'
+	classpath = sourceSets.main.runtimeClasspath
+	// This task requires standard input to interact with the user
+	standardInput = System.in
+}
+
+// Task for Part B
+task(runB, type: JavaExec) {
+	mainClass = 'Rec1B'
+	classpath = sourceSets.main.runtimeClasspath
+}
+
+// Task for Part C
+task(runC, type: JavaExec) {
+	// Note that this part uses a main class in a package
+	mainClass = 'cs445.rec1.Rec1C'
+	classpath = sourceSets.main.runtimeClasspath
+}
+
