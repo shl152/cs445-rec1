@@ -39,8 +39,8 @@ Predict what you'll see output from each of the print statements.
 ensure you are able to compile and run Java programs from the CLI, compile and
 run `Rec1A`. Check your predictions regarding each print statement.
 
-**NEW:** To run this part with gradle, use the command `./gradlew runA` (on
-Unix-like systems) or `gradle.bat runA` (on DOS-like systems).
+   **NEW:** To run this part with gradle, use the command `./gradlew runA` (on
+   Unix-like systems) or `gradle.bat runA` (on DOS-like systems).
 
 4) Change line 69 of `Rec1A.java` to make `custom` point to a separate object
 from `matilda`. Compile and run the code again and observe the changes.
@@ -58,14 +58,14 @@ access).
 running it with different numbers of command line arguments. Try wrapping
 multiple words in quotes, and note the difference in the output of the program.
 
-**NEW:** To run this part with gradle, use the command `./gradlew runB` (on
-Unix-like systems) or `gradle.bat runB` (on DOS-like systems). You can use
-`--args` to pass command line arguments through gradle. Wrap all arguments in
-double quotes; use escaped double quotes (`\"`) to group arguments. For
-instance:
+   **NEW:** To run this part with gradle, use the command `./gradlew runB` (on
+   Unix-like systems) or `gradle.bat runB` (on DOS-like systems). You can use
+   `--args` to pass command line arguments through gradle. Wrap all arguments in
+   double quotes; use escaped double quotes (`\"`) to group arguments. For
+   instance:
 
-    ./gradlew runB --args "one two three"
-    ./gradlew runB --args "\"first argument\" \"second argument\" third"
+       ./gradlew runB --args "one two three"
+       ./gradlew runB --args "\"first argument\" \"second argument\" third"
 
 8) Read through `Rec1C.java` and consider the first line; note that this class
 is labeled as belonging to package `cs445.rec1`.
@@ -74,8 +74,8 @@ is labeled as belonging to package `cs445.rec1`.
 `Rec1B`. Note that it doesn't work! This is because Java expects to find the
 code inside a *package folder*.
 
-**NEW:** The source file has already been moved into package folders in this
-branch, so the next step is no longer necessary.
+   **NEW:** The source file has already been moved into package folders in this
+   branch, so the next step is no longer necessary.
 
 10) ~~Create nested package folders `cs445/rec1/` using `mkdir`. Then, move
 `Rec1C.java` into `cs445/rec1/` using `git mv`.~~
@@ -83,8 +83,8 @@ branch, so the next step is no longer necessary.
 11) **Remaining outside of the package folders** (that is, *without* using `cd`
 to navigate into `cs445/rec1/`), compile and run `Rec1C.java`.
 
-**NEW:** To run this part with gradle, use the command `./gradlew runC` (on
-Unix-like systems) or `gradle.bat runC` (on DOS-like systems).
+    **NEW:** To run this part with gradle, use the command `./gradlew runC` (on
+    Unix-like systems) or `gradle.bat runC` (on DOS-like systems).
 
 12) ~~Commit your change of location for `Rec1C.java` using `git commit`.~~
 
