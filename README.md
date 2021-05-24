@@ -59,7 +59,13 @@ running it with different numbers of command line arguments. Try wrapping
 multiple words in quotes, and note the difference in the output of the program.
 
 **NEW:** To run this part with gradle, use the command `./gradlew runB` (on
-Unix-like systems) or `gradle.bat runB` (on DOS-like systems).
+Unix-like systems) or `gradle.bat runB` (on DOS-like systems). You can use
+`--args` to pass command line arguments through gradle. Wrap all arguments in
+double quotes; use escaped double quotes (`\"`) to group arguments. For
+instance:
+
+    ./gradlew runB --args "one two three"
+    ./gradlew runB --args "\"first argument\" \"second argument\" third"
 
 8) Read through `Rec1C.java` and consider the first line; note that this class
 is labeled as belonging to package `cs445.rec1`.
