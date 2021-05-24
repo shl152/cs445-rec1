@@ -77,7 +77,7 @@ code inside a *package folder*.
 **NEW:** The source file has already been moved into package folders in this
 branch, so the next step is no longer necessary.
 
-~~10) Create nested package folders `cs445/rec1/` using `mkdir`. Then, move
+10) ~~Create nested package folders `cs445/rec1/` using `mkdir`. Then, move
 `Rec1C.java` into `cs445/rec1/` using `git mv`.~~
 
 11) **Remaining outside of the package folders** (that is, *without* using `cd`
@@ -86,7 +86,7 @@ to navigate into `cs445/rec1/`), compile and run `Rec1C.java`.
 **NEW:** To run this part with gradle, use the command `./gradlew runC` (on
 Unix-like systems) or `gradle.bat runC` (on DOS-like systems).
 
-~~12) Commit your change of location for `Rec1C.java` using `git commit`.~~
+12) ~~Commit your change of location for `Rec1C.java` using `git commit`.~~
 
 13) Use `git log` to observe the changes that have been made since this
 repository was created. If you want to undo a commit, try `git revert` followed
